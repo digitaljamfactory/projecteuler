@@ -12,7 +12,8 @@ def prime_factorise(number, factors=None):
 		return factors
 	return prime_factorise(number/i, factors)	
 			
-			
-print prime_factorise(600851475143)
+	
+if __name__ == '__main__' :		
+	print prime_factorise(600851475143)
 		
 	
